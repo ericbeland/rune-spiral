@@ -18,9 +18,9 @@ provide a helpful message with the task that failed, the number of attempts, and
 # Task Rules
 * Tasks must:
   * be concise--every token has a cost
-  * must be fully spelled out with actionable instructions and no skipped or undefined steps
-  * must have sensible, descriptive, CamelCase names ending in .md
-  * must be generated into the /tasks folder
+  * be fully spelled out with actionable instructions and no skipped or undefined steps
+  * have sensible, descriptive, CamelCase names ending in .md
+  * be generated into the /tasks folder
 * Tasks may:
   * reference other tasks, as steps
   * involve tools, code execution, research, interaction, etc.
