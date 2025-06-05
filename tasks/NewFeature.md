@@ -1,0 +1,12 @@
+
+- [] DoDiscovery.md
+- [] CreateBranch.md
+- [] CreateSpec.md 
+- [] ImplementSpec.md
+- [] LintCode.md
+- [] RunTests.md
+- [] ValidateResults.md
+- [] FixErrors.md
+- [] CommitCode.md
+- [] CleanUpComments.md
+- [] PushBranch.md
