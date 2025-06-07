@@ -1,8 +1,8 @@
 This is a task orchestration and persistence system for LLM's based on Markdown checklists.
 
 # Instructions
-* Look for and run the requested task matching the name requested
-* Read and complete each step in the markdown task file, one-by-one, in order, from top to bottom
+* Look for and run the requested task matching the name requested in the ./tasks folder for the current working directory
+* If the folder isn't present, follow the "Create the task" instructions below
 * If a task is checked [x], move on to the next unchecked step
 * When completing a task, check it and re-save the file. This allows resumption if interrupted
 * If a step asks you to complete another task, do so
@@ -14,6 +14,10 @@ This is a task orchestration and persistence system for LLM's based on Markdown 
 markdown front-matter upon the start of each atempt to complete the step, and save. After the attempts are exhausted,
 provide a helpful message with the task that failed, the number of attempts, and why it failed.
 
+# Create the task
+* create a folder with the CamelCase Name for the task
+* Copy all referenced tasks from .tasks in this project into the working directory into a single file named .tasks/NewTaskName/task.md
+* Read and complete each step in the markdown task file, one-by-one, in order, from top to bottom
 
 # Task Rules
 * Tasks must:

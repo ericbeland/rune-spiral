@@ -1,5 +1,5 @@
-
-- [] DoDiscovery.md
+TODO:
+- [] ArchitectNewFeature.md
 - [] CreateBranch.md
 - [] CreateSpec.md 
 - [] ImplementSpec.md
